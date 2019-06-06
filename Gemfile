@@ -49,5 +49,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'devise', '~> 4.2'
-gem 'bcrypt', '~> 3.1.7' 
+gem 'bcrypt', '~> 3.1'
+gem 'bcrypt-ruby', '3.1.0', :require => 'bcrypt'
+gem "toastr-rails", '~> 1.0'
 gem "jquery-rails"
